@@ -68,3 +68,14 @@ h2 {
     height: 100%;
     object-fit: cover;
 }
+header {
+    font-weight: bolder;
+    font-size: 25px;
+}
+.nav-link {
+    color: white;
+}
+.navbar-brand {
+    color: white;
+    text-shadow: #000;
+}
