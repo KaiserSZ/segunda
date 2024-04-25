@@ -4,7 +4,8 @@
 .product-card img {
     width: 100%;
     height: 500px;
-    object-fit: cover;  
+    object-fit: cover; 
+    border: 1px solid #000; 
 }
 .product-body {
     display: flex;
@@ -13,5 +14,21 @@
     padding: 10px;
 }
 .btn-pink {
+    border: 1px solid #000;
+    background-color: #E19477;
+    font-weight: bolder;
+    color: white;
+}
+.card-text {
+    font-weight: bolder;
+    padding: 1px;
+    margin: 1px;
+}
+main {
+    background-color: #FBDCD1;
+}
+h2 {
+    background-color: #E19477;
+    color: white;
     border: 1px solid #000;
 }
