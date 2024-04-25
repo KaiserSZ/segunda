@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat Alternates";
+    background-color: #FBDCD1;
+}
+
 .product-card {
     background-color: #FBDCD1;
     transition: 0.5s;
