@@ -156,6 +156,7 @@ header {
     justify-content: center;
     text-align: center;
     border: solid 1px #000;
+    border-radius: 5px;
     gap: 50px;
 }
 .botonagenda{
