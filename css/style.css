@@ -118,7 +118,7 @@ header {
 .container-fluid {
     height: 40px;
     background-color: #FBDCD1;
-    margin: 0;
+    margin: 2px;
 }
 .conocenos{
     display: flex;
