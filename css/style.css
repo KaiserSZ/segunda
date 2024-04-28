@@ -146,6 +146,36 @@ header {
     text-align: center;
     padding: 30px;
 }
-.offcanvas {
-    
+.agenda {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 90%;
+    margin: 50px;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px #000;
+    gap: 50px;
+}
+.botonagenda{
+    background-color: #E19477;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.textoagenda { 
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 15px;
+ 
 }
