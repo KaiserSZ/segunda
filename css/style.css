@@ -180,6 +180,7 @@ header {
     font-weight: bold;
     padding-top: 20px;
     transition: 1s;
+    border: solid 1px #000;
 }
 .botonagenda:hover {
     background-color: #000;
