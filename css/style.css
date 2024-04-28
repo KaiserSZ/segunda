@@ -50,20 +50,20 @@
     padding: 1px;
     margin: 1px;
 }
-
 h2 {
     background-color: #E19477;
     color: white;
     border: 1px solid #000;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
 }
-
 .carousel-inner, 
 .carousel-item {
     width: 100%;
     height: 500px;
     background-color: #FBDCD1;
 }
-
 .carousel-item img {
     width: 100%;
     height: 100%;
@@ -74,14 +74,12 @@ header {
     font-size: 25px;
     position: sticky;
     top: 0;
-    padding: 3px;
+    padding: 5px;
     background-color: #FBDCD1;
 }
-
 .nav-link {
     color: white;
 }
-
 .nav-item {
     padding: 5px;
     margin: 5px;
@@ -90,9 +88,11 @@ header {
     color: white;
     text-shadow: #000;
     text-align: center;
+    margin: 5px;
+    padding: 5px;
 }
 .logo img {
-    width: 130px;
+    width: 100px;
     padding: 5px;
     margin: 5px;
 }
@@ -100,8 +100,34 @@ header {
     height: 40px;
     justify-content: center;
 }
-
 .container-fluid {
     height: 40px;
-
+    background-color: #FBDCD1;
+    margin: 0;
+}
+.conocenos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 30px;
+}
+.guia{
+    color: white;
+    background-color: #E19477;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 5px;
+}
+.propuesta{
+    padding: 70px;
+    margin: 50px;
+}
+.ubicacion{
+    padding: 50px;
+    margin: 50px;
+}
+.conocenostexto{
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
 }
