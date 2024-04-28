@@ -122,9 +122,8 @@ header {
 }
 .conocenos{
     display: flex;
-    justify-content: space-evenly;
-    padding: 30px;
-    margin: 30px;
+    gap: 50px;
+    margin: 0 10 20 20;
 }
 .guia{
     color: white;
@@ -134,17 +133,27 @@ header {
     border-radius: 5px;
 }
 .propuesta{
-    padding: 70px;
-    margin: 50px;
+    padding: 30px;
+    margin: 30px;
+    width: 50%;
 }
 .ubicacion{
-    padding: 50px;
-    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    gap: 50px;
+    padding: 30px;
+    margin: 30px;
 }
 .conocenostexto{
     font-size: 25px;
     text-align: center;
     padding: 30px;
+}
+.videoubi {
+    justify-content: center;
 }
 .agenda {
     display: flex;
@@ -170,6 +179,10 @@ header {
     color: white;
     font-weight: bold;
     padding-top: 20px;
+    transition: 1s;
+}
+.botonagenda:hover {
+    background-color: #000;
 }
 .textoagenda { 
     font-size: 20px;
@@ -178,5 +191,55 @@ header {
     color: black;
     font-weight: bold;
     margin-top: 15px;
- 
+}
+.contacto {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
+    height: 500px;
+    gap: 20px;
+}
+
+.visitanos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 20px;
+}
+.dejanos {
+    width: 50%;
+    height: 500px;
+    justify-content: space-between;
+    text-align:left;
+    padding: 10px;
+    margin: 10px;
+    gap: 20px;
+}
+.datos {
+    list-style-type: none;
+}
+.datos li{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+h3 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    padding-top: 10px;
+    gap: 10px;
+    width: 200px;
+}
+input {
+    width: 500px;
 }
